@@ -11,6 +11,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: none;
 }
+img.image-shadow {
+  	box-shadow: 4px 8px 5px rgba(0, 0, 0, 0.4);
+  }
 
 .dropdown {
   position: relative;
@@ -22,15 +25,17 @@
   position: absolute;
   background-color: #737373;
   max-width: 48px;
-   z-index: 1;
+  
+   
 }
 
 .dropdown-content a {
+  
   color: #737373;
   padding: 5px 16px;
   text-decoration: none;
   display: block;
-  min-width: 97px;
+  min-width: 120px;
 }
 
 .dropdown-content a:hover {background-color: #737373;}
@@ -49,10 +54,44 @@
 
         </style>
     </head>
+<body>
 
   
+
+  
+
+
+    <h1 style="background-color: gray;font-size: 28px;text-align: center;><table style="width:10%">
+      <tr>
+        <th><a href="kontakt.html" style="color:white;text-decoration: none;">HOME</a></th>
+        <!--tutaj tekst, ktory jest linkiem ma zmieninony kolor na biały, zamiast standartowego niebieskiego/fioletowego-->
+       <th><div class="dropdown">
+        <button class="dropbtn"><b><a style="font-family: Verdana, Geneva, Tahoma, sans-serif;">KONTAKT</a></b></button>
+        <div class="dropdown-content">
+          <a href="https://www.facebook.com/profile.php?id=100001271582432">
+            <img src="facebookpikto.jpg" alt="HTML tutorial" style="width:60px;height:60px;border:0">
+            <a href="https://www.linkedin.com/in/alan-dro%C5%BCd%C5%BCy%C5%84ski-722708187/">
+              <img src="linkedinpikto.jpg" alt="HTML tutorial" style="width:70px;height:70px;border:0">
+              <a href="mailto:alan.drozdzynski.gmail.com">
+                <img src="gmailpikto.jpg" alt="HTML tutorial" style="width:60px;height:60px;border:0">
+        </div>
+      </div></th>
+       <th><a href="portfolio.html" style="color:white; text-decoration:none;">PORTFOLIO</a></th>
+       <th><a href= #home style="color:white;text-decoration: none;">O MNIE</a></th>
+       
+     </tr>
+  
    
-   
+   </table>
   </h1> 
+
+
+  <h1 style="font-size: 40px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: left;padding: 15px;">RESUME</h1>
+  <table style="width:30%" >
+          <td><a style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;">Alan Drożdżyński<br><br>111 222 333<br><br>ul. Zmyślona,<br>11/22<br>11-200 Miasto<br><br>Strona www w budowie<br><br> <a href="mailto:alan.drozdzynski@gmail.com">Napisz do mnie</a></a> </td>
+      <td><img class="image-shadow" src="zdjecie_probne.jpg" height="400px" width="300px"></td>
+    
+  </table>
+ 
 </body>
 </html>
