@@ -1,7 +1,47 @@
 <html lang="pl">
     <title>Strona do opracowania</title>
     <head>
+      <link rel="stylesheet" type="text/css" href="C:\Users\Alan\Desktop\projects\mysite\css\styles.css">
         <style> 
+        .dropbtn {
+  background-color:#808080;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #737373;
+  max-width: 48px;
+   z-index: 1;
+}
+
+.dropdown-content a {
+  color: #737373;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  min-width: 97px;
+}
+
+.dropdown-content a:hover {background-color: #737373;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #808080;}
+          
+
+
+      
         body {background-color: #737373;color: blanchedalmond;}
         
         
@@ -10,19 +50,32 @@
         </style>
     </head>
 <body>
-  <h1 style="background-color: gray;font-size: 28px;text-align: center;><table style="width:10%">
-        <tr>
-         <th><a href="https://www.google.pl" style="color:white;text-decoration: none;">HOME</a></th>   <!--tutaj tekst, ktory jest linkiem ma zmieninony kolor na biały, zamiast standartowego niebieskiego/fioletowego-->
-         <th>O MNIE</th>
-         <th><a href="linki.html" style="color:white; text-decoration:none;">MEDIA</a></th>
-         <th><a href="kontakt.html" style="color:white;text-decoration: none;">KONTAKT</a></th>
-       </tr>
-    
-     
-     </table>
-    </h1> 
+
+  
+
+  
 
 
-    
+    <h1 style="background-color: gray;font-size: 28px;text-align: center;><table style="width:10%">
+      <tr>
+       <th><a href=#test style="color:white;text-decoration: none;">HOME</a></th>   <!--tutaj tekst, ktory jest linkiem ma zmieninony kolor na biały, zamiast standartowego niebieskiego/fioletowego-->
+       <th><div class="dropdown">
+        <button class="dropbtn"><b><a style="font-family: Verdana, Geneva, Tahoma, sans-serif;">O MNIE</a></b></button>
+        <div class="dropdown-content">
+          <a href="https://www.facebook.com/profile.php?id=100001271582432">
+            <img src="facebookpikto.jpg" alt="HTML tutorial" style="width:60px;height:60px;border:0">
+            <a href="https://www.linkedin.com">
+              <img src="linkedinpikto.jpg" alt="HTML tutorial" style="width:70px;height:70px;border:0">
+              <a href="https://www.gmail.com">
+                <img src="gmailpikto.jpg" alt="HTML tutorial" style="width:60px;height:60px;border:0">
+        </div>
+      </div></th>
+       <th><a href="#media" style="color:white; text-decoration:none;">MEDIA</a></th>
+       <th><a href="kontakt.html" style="color:white;text-decoration: none;">KONTAKT</a></th>
+     </tr>
+  
+   
+   </table>
+  </h1> 
 </body>
 </html>
