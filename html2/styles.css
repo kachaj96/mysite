@@ -1,0 +1,49 @@
+.topmenu{
+    
+        
+    font-size: 30px;
+    background-color: blue;
+}
+.topmenu a{
+
+    float: left;
+    display: block;
+    color: #00bbff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+.header1 {
+    padding: 200px; 
+    text-align: center; 
+    background: pink; 
+    color: green; font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.header2 {
+    padding: 300px; 
+    text-align: center; 
+    background: green; 
+    color: red; font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.header3 {
+    padding: 300px; 
+    text-align: center; 
+    background: yellow; 
+    color: red; font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.header4 {
+    padding: 300px; 
+    text-align: center; 
+    background: purple; 
+    color: yellow; font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
