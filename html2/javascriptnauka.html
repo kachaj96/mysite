@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>nauka skrypotow js</title>
+</head>
+<body>
+
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo">JavaScript can change HTML content.</p>
+    
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>  <!--onclick zmmieni tekst w id demo po kliknieciu-->
+<br><!---------------------------------------------------------------------------------------------------------------->
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button> <!--po kliknieciu na plik turn off zmieni obraz na podany-->
+
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<br><!---------------------------------------------------------------------------------------------------------------->
+<p id="demo1">zmiana i format tekstu.</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.fontSize='35px'">Click Me!</button> <!-- tutaj formatuje tekst z id demo1-->
+<br><!---------------------------------------------------------------------------------------------------------------->
+<p id="demo3">znikajacy tekst.</p>
+
+<button type="button" onclick="document.getElementById('demo3').style.display='none'">Click Me!</button><!-- tutaj po kliknieciu zniknie tekst z demo3-->
+<br><!---------------------------------------------------------------------------------------------------------------->
+<p id="demo4" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo4').style.display='block'">Click Me!</button><!--tutaj po kliknieciu pokaze sie tekst z demo4-->
+<br><!---------------------------------------------------------------------------------------------------------------->
+<!--skryptu w htmlu muszą znajdowaćsię w <script></script>-->
+<!-- wyświetlanie skryptów można robić na klika sposobów 
+Writing into an HTML element, using innerHTML.  -       tutaj wyświetla bezpośrednio na stronie
+Writing into the HTML output using document.write().    tutaj nadpisuje ?
+Writing into an alert box, using window.alert().        tutaj wyskakuje okno dialogowe
+Writing into the browser console, using console.log().  tutaj w logach nadpisuje się dany skrypt  -->
+<p id="demo5"></p>
+<script> document.getElementById("demo5").innerHTML =5+60;</script><br> <!-- wywolanie skryptu, tutaj dodawania-->
+<!-------------------------------------------------------------------------------------------------------------------->
+<button type="button" onclick="document.write(5+5)">teraz nadpisze strone wynikiem</button> <!--document write nadpisuje cala strone i wyswietla tylk skrypt--><br>
+<!-------------------------------------------------------------------------------------------------------------------->
+<script>window.alert(5+67))</script> <!-- tutaj wyskoczy okno dialogowe z wynikiem skryptu, usuń ) żeby sprawdzić-->
+<br>
+<!-------------------------------------------------------------------------------------------------------------------->
+<button onclick="window.print()">wydrukuje tą stronę</button><br>
+<!-------------------------------------------------------------------------------------------------------------------->
+<p id="demo6"></p>
+<script>             
+var x,y,z;      
+x=5;
+y=6;
+z=x+y;
+document.getElementById("demo6").innerHTML="wartość x i y to:" +z+".";
+</script> <!-- w tym skrypcie wywołana została zmienna demo6, która wyświetliła zmienie x i y oraz zmienną z, która była zaprogramowana jako wynik dodawania --><br>
+<!-------------------------------------------------------------------------------------------------------------------->
+<p id="demo7"></p>
+<script>
+var x;
+x=5;
+
+document.getElementById("demo7").innerHTML= x*10;
+
+</script><!--w tym skrypcie do zmiennej x zostala dopisana liczba 5, nastepnie przy wypisaniu elementu demo 7 zostalo to pomnoznoe--><br>
+<!--------------------------------------------------------------------------------------------------------------------->
+</body>
+
+</html>
