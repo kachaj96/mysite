@@ -27,9 +27,26 @@ color: aqua;
     box-sizing: border-box; 
     text-align: center; 
     background: #E8EAF6; 
-    color: #6776fa; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3446e9; font-family: serif;
+    text-align: left;
+    font-size: 30px;
+    padding: 50px;
+    padding-left: 300px;
 
 }
+
+.sub_header1{
+
+    text-align: left; 
+    background: #E8EAF6; 
+    color: #000000; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 28px;
+    padding-left: 300px;
+    padding-bottom: 50px;
+
+}
+
 .header2 {
     padding: 300px; 
     text-align: center; 
@@ -77,3 +94,4 @@ color: aqua;
       color: white;
       
   }
+ 
