@@ -39,26 +39,64 @@ color: aqua;
 
     text-align: left; 
     background: #E8EAF6; 
-    color: #000000; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000000; font-family:'Courier New', Courier, monospace;
     text-align: left;
     font-size: 28px;
     padding-left: 300px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    padding-right: 300px;
 
 }
 
 .header2 {
-    padding: 300px; 
     text-align: center; 
-    background: green; 
-    color: red; font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white; 
+    color: #3446e9; font-family: serif;
+    font-size: 60px;
+    padding-top: 50px;
+       
 
 }
-.header3 {
-    padding: 300px; 
+
+.sub_header2{
+
     text-align: center; 
-    background: yellow; 
-    color: red; font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white; 
+    color: #3446e9; font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.sub_header2_1{
+
+    text-align: center; 
+    background: white; 
+    color: #black; font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.header3 {
+    box-sizing: border-box; 
+    text-align: center; 
+    background: #E8EAF6; 
+    color: #3446e9; font-family: serif;
+    text-align: left;
+    font-size: 30px;
+    padding: 50px;
+    padding-left: 300px;
+
+}
+
+.sub_header3{
+
+    text-align: left; 
+    background: #E8EAF6; 
+    color: #000000; font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 28px;
+    padding-left: 300px;
+    padding-bottom: 100px;
+    padding-right: 300px;
 
 }
 
