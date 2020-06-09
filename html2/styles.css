@@ -20,8 +20,12 @@ color: aqua;
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-    
 }
+
+.topmenu a:hover /* po najechaniu zmienia kolor linku */
+    {
+    color:orange;
+    }
 
 .header1 {
     box-sizing: border-box; 
